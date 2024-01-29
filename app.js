@@ -23,3 +23,10 @@ const subtract = () => {
 }
 
 subtractButton.addEventListener('click', subtract);
+
+const multiply = () => {
+	const newValue = Number(input1.value) * Number(input2.value);
+	output.textContent = newValue
+}
+
+multiplyButton.addEventListener('click', multiply);
