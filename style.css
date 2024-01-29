@@ -1,0 +1,42 @@
+.flex-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-container {
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+}
+
+.input-container {
+	background-color: pink;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-basis: 50%;
+	font-size: 3rem;
+}
+
+.button-container {
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-basis: 50%;
+}
+
+input {
+	width: 3rem;
+	height: 3rem;
+	font-size: 2rem;
+}
+
+button {
+	font-size: 1.5rem;
+}
